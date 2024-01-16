@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cercle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: black solid;
+    position: absolute;
+    right: 600px;
+    top: 200px;
+}
+
+.eguitS{
+    height: 90px;
+    width: 3px;
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    animation-name: exemple;
+    transform-origin:  bottom left ;
+    animation-iteration-count: infinite; 
+    animation-timing-function: steps(60);
+    animation-duration: 60s;
+    z-index: 3;
+}
+
+@keyframes exemple {
+    100%{rotate: 360deg;}
+   
+}
+
+.eguitM{
+    height: 80px;
+    width: 5px;
+    background-color: burlywood;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+    transform-origin:  bottom left ;
+    animation-name: exemple;
+    animation-iteration-count: infinite; 
+    animation-timing-function: steps(60);
+    animation-duration: 60s;
+    z-index: 2;
+}
+
+
+
+
+.eguitH{
+
+    height: 90px;
+    width: 7px;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    bottom: 160px;
+    transform-origin:  bottom left ;
+    animation-iteration-count: infinite; 
+    animation-timing-function: steps(60);
+    animation-duration: 60s;
+    animation-name: exemple;
+    z-index: 1;
+
+}
+

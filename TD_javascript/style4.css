@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 500px;
+}
+#total{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 100px;
+    transition: 1s;
+}
+body:hover #total{
+    transform: translateX(400px);
+}
+body:hover #pno img{
+    transform: rotate(360deg)
+}
+
+#window{
+    display: flex;
+}
+#box{
+    position: relative;
+    left: -120px;
+    width: 600px;
+    height: 80px;
+    background-color: aquamarine;
+}
+#window :nth-child(2){
+    position: relative;
+    left: -40px;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    transform :  skewX(20deg);
+}
+#window :nth-child(1){
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    transform :  skewX(-20deg);
+}
+#pno{
+    display: flex;
+}
+#pno div img{
+    position: relative;
+    bottom: 20px;
+    width: 70px;
+    height: 70px;
+    transition: 1s;
+    background-color: white;
+    border-radius: 200px;
+}
+#car{
+    position: relative;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
